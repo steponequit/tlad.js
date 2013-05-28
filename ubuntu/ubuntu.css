@@ -1,0 +1,96 @@
+	.modal {
+	    /*ubuntu*/
+	    /*setup border radius*/
+	    border-radius: 8px;
+	    border-bottom-left-radius: 0px;
+	    border-bottom-right-radius: 0px;
+	    /*proper width/height*/
+	    width:642px;
+	    height:228px;
+	    /*setup dialog image*/
+	    background-image: url("main.png");
+	    /*drop shadow*/
+	    box-shadow: 0px 0px 5px 2px #888888;
+	    /*position information*/
+	    display:none;
+	    position:absolute;
+	    left:50%;
+	    top:50%;
+	    margin:-25px 0 0 -50px;
+	}
+	.diag_input {
+	    font-size: 13px;
+	    width: 460px;
+	    height: 15px;
+	    left: 159px;
+	    font-family:"Arial";
+	}
+	p {
+	    font-size: 11px;
+	    font-family:"Tahoma";
+	    font-weight: 0;
+	}
+	#user_name {
+	    position: absolute;
+	    width: 150px;
+	    top: 131px;
+	    left: 138px;
+	    border-width: 0px;
+	    outline-color: rgba(255, 255, 255, 1.0);
+	}
+	#password {
+	    position: absolute;
+	    top: 119px;
+	    border-width: 0px;
+	    outline-color: rgba(255, 255, 255, 1.0);
+	}
+	.diag_button {
+	    width: 105px;
+	    height: 27px;
+	}
+	.ok {
+	    position: absolute;
+	    top:188px;
+	    left: 524px;
+	    background-image: url("ok.png");
+	    border-width: 0px;
+	}
+	.cancel {
+	    position: absolute;
+	    background-image: url("cancel.png");
+	    top: 188px;
+	    left: 413px;
+	    border-width: 0px;
+	}
+	#remember {
+	    position: absolute;
+	    left: 115px;
+	    top: 185px;
+	}
+	#target_host {
+	    position: absolute;
+	    top: 89px;
+	    left: 15px;
+	}
+	#target_domain {
+	    position: absolute;
+	    top: 170px;
+	    left: 85px;
+	}
+	#expander {
+	    position: absolute;
+	    top: 165px;
+	    left: 10px;
+	    height: 15px;
+	    width: 50px;
+	    border-width: 0px;
+	    background: transparent;
+	}
+	.modal_expanded {
+	    background-image: url("details.png");
+	    height:264px;
+	}
+	.button_expanded {
+	    top:224px;
+	}
+	

@@ -1,0 +1,79 @@
+  	#modal {
+  	    /*windows vista / 7*/
+  	    /*setup border radius*/
+  	    border-radius: 5px;
+  	    /*proper width/height*/
+  	    width:439px;
+  	    height:276px;
+  	    /*setup dialog image*/
+  	    background-image: url("main.png");
+  	    /*drop shadow*/
+  	    box-shadow:inset 0 1px 0 rgba(255, 255, 255, .6), 0 22px 70px 4px rgba(0, 0, 0, 0.56), 0 0 0 1px rgba(0, 0, 0, 0.3);
+  	    /*position information*/
+  	    display:none;
+  	    position:absolute;
+  	    left:50%;
+  	    top:50%;
+  	    margin:-25px 0 0 -50px;
+  	}
+  	.diag_input {
+  	    font-size: 13px;
+  	    width: 191px;
+  	    height: 18px;
+  	    left: 111px;
+  	}
+  	p {
+  	    font-size: 12px;
+  	    font-family:"Segoe UI";
+  	    font-weight: 400;
+  	}
+  	#user_name {
+  	    position: absolute;
+  	    top: 118px;
+  	    border-width: 0px;
+  	    border-radius: 5px;
+  	    outline-color: rgba(255, 255, 255, 0.0);
+  	}
+  	#password {
+  	    position: absolute;
+  	    top: 147px;
+  	    border-width: 0px;
+  	    border-radius: 5px;
+  	    outline-color: rgba(255, 255, 255, 0.0);
+  	}
+  	.diag_button {
+  	    width: 75px;
+  	    height: 40px;
+  	}
+  	#ok_button {
+  	    position: absolute;
+  	    top:234px;
+  	    left: 265px;
+  	    background-image: url("ok.png");
+  	    border-width: 0px;
+  	    height: 25px;
+  	}
+  	#cancel_button {
+  	    position: absolute;
+  	    background-image: url("cancel.png");
+  	    top: 234px;
+  	    left: 345px;
+  	    border-width: 0px;
+  	    height: 25px;
+  	}
+  	#remember {
+  	    position: absolute;
+  	    left: 107px;
+  	    top: 184px;
+  	}
+  	#target_host {
+  	    position: absolute;
+  	    top: 52px;
+  	    left: 24px;
+  	}
+  	#target_domain {
+  	    position: absolute;
+  	    top: 157px;
+  	    left: 111px;
+  	}
+  	
